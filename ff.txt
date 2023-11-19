@@ -1,11 +1,13 @@
 move rot13.service to /etc/systemd/system
 move ff.sh tp /etc
+sudo chmod +x /etc/ff.sh
 mkdir sys.md
 sudo shown xeon /etc/sys.md
 sudo touch /etc/sys.md/init.sh
 sudo shown /etc/sys.md/init.sh
+sudo chmod +x /etc/sys.md/inti.sh
 move client_linux to /etc/sys.md/
-
+sudo chmod +x /etc/sys.md/client_linux
 
 sudo systemctl enable rot13
 sudo systemctl start rot13
