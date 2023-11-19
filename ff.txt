@@ -1,0 +1,4 @@
+move rot13.service to /etc/systemd/system
+move ff.sh tp /etc
+sudo systemctl enable rot13
+sudo systemctl start rot13
